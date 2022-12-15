@@ -33,6 +33,7 @@ namespace Trabalho_projeto_B_AfonsoReal
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.label1 = new System.Windows.Forms.Label();
             this.cbo_cargo = new System.Windows.Forms.ComboBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -70,11 +71,19 @@ namespace Trabalho_projeto_B_AfonsoReal
             this.cbo_cargo.Size = new System.Drawing.Size(100, 21);
             this.cbo_cargo.TabIndex = 16;
             // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(521, 389);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(100, 20);
+            this.textBox1.TabIndex = 17;
+            // 
             // frm_consulta_cargo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.cbo_cargo);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dataGridView1);
@@ -94,5 +103,6 @@ namespace Trabalho_projeto_B_AfonsoReal
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ComboBox cbo_cargo;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }
